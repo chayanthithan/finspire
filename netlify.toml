@@ -1,6 +1,9 @@
 [build]
-  command = "ng build --configuration production"
-  publish = "dist/browser"
+  command = "npm run build:ssr"
+  publish = "dist/finspire-solutions/browser"
+
+[[plugins]]
+  package = "@netlify/angular-runtime"
 
 [[redirects]]
   from = "/*"

@@ -1,15 +1,15 @@
 {
   "name": "finspire-solutions",
   "version": "0.0.0",
- "scripts": {
-  "ng": "ng",
-  "start": "ng serve",
-  "build": "ng build",
-  "watch": "ng build --watch --configuration development",
-  "test": "ng test",
-  "serve:ssr:finspire-solutions": "node dist/finspire-solutions/server/server.mjs",
-  "build:prod": "ng build --configuration=production"
-},
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "serve:ssr:finspire-solutions": "node dist/finspire-solutions/server/server.mjs",
+    "build:prod": "ng build --configuration=production"
+  },
   "private": true,
   "dependencies": {
     "@angular/common": "^19.2.0",
@@ -30,6 +30,7 @@
     "@angular-devkit/build-angular": "^19.2.2",
     "@angular/cli": "^19.2.2",
     "@angular/compiler-cli": "^19.2.0",
+    "@netlify/angular-runtime": "^2.2.0",
     "@types/express": "^4.17.17",
     "@types/jasmine": "~5.1.0",
     "@types/node": "^18.18.0",
