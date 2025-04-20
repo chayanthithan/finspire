@@ -1,6 +1,6 @@
 [build]
   command = "npm run build:ssr"
-  publish = "dist/finspire-solutions/browser"
+  publish = "dist/browser"
 
 [[plugins]]
   package = "@netlify/angular-runtime"

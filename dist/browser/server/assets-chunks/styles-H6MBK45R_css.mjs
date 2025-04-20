@@ -1,0 +1,2 @@
+export default `body{margin:0;padding:0;background-color:#fff;font-family:Poppins,sans-serif}:root{--button-color: #2F8F9D;--text-color: #3BACB6;--icons-color: #82DBD8;--background-color: rgb(219, 219, 247)}@keyframes appear{0%{opacity:0;scale:.5}to{opacity:1;scale:1}}.block{animation:appear linear;animation-timeline:view();animation-range:entry 0% cover 25%}
+`;
